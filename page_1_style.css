@@ -1,0 +1,319 @@
+.btn-group  {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: white;
+    width: 100%;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+  }
+ .b-g{
+    border: none;
+     height: 30px;
+     width: 100px;
+     padding-left: 15px;
+
+ }
+  
+  
+  /* Add a background color on hover */
+  .btn-group button:hover {
+    background-color: black;
+    color:white;
+  }
+.first_part{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+}
+.p1{
+   
+    padding-bottom: 10px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+
+   
+    margin-bottom: 10px;
+
+
+}
+
+.p2{
+   width: 70%;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 10px;
+
+    
+
+    /* Dark Color */
+    
+    color: #21243D;
+    
+    }
+img{
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+
+}
+.b1{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 30px;
+    color: #FFFFFF;
+    
+background: #FF6464;
+border-radius: 2px;
+}
+
+
+.second_part{
+    display: flex;
+    flex-direction: row;
+    background-color: lightblue;
+
+    padding-right: 150px;
+
+    padding-left: 100px;
+    padding-bottom: 30px;
+
+    
+
+    
+}
+.f1{
+    font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 22px;
+line-height: 60px;
+margin: 10px;
+color: #21243D;
+
+}
+
+
+
+p.text_right{
+    text-align: right;
+    color :#00A8CC;
+    font-size: 16px;
+line-height: 23px;
+margin-top: 40px;
+margin-bottom: 40px;
+
+
+
+}
+.white_background{
+    background-color: white;
+    margin: 5px;
+    padding:20px;
+}
+
+.bigFont{
+    font-family: Heebo;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 38px;
+
+
+color: #21243D;
+}
+
+.medFont{
+    font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 26px;
+
+
+color: #21243D;
+}
+
+.smallFont{
+    font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 23px;
+color: #21243D;
+}
+
+
+.Last_part{
+    display: flex;
+    flex-direction: column;
+
+
+    padding-left: 100px;
+
+    
+
+    
+}
+.flex_row{
+    display: flex;
+    flex-direction: row;
+
+
+    
+}
+.flex_row2{
+    display: flex;
+    flex-direction: row;
+
+
+    
+}
+
+.flex_col{
+    display: flex;
+    flex-direction: column;
+  
+
+
+    
+}
+.flex_col2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.pic_text1{
+padding-right: 15px;
+background: #142850;
+border-radius: 16px;
+font-family: Heebo;
+font-style: normal;
+margin-right: 10px;
+text-align: center;
+padding-left: 5px;
+
+color: #FFFFFF;
+;
+}
+.pic_text2{
+font-family: Heebo;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 29px;
+padding:9px;
+
+
+color: #8695A4;
+}
+.line{
+    height: 0px;
+    border: 1px solid #E0E0E0;
+margin-top: 10px;}
+
+.pic_end{
+ width: 30px;
+height: 30px;
+}
+
+.copyRight_text{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;    
+    text-align: center;
+    margin-right: 40px;
+    color: #21243D;}
+
+
+    .header {
+        overflow: hidden;
+        background-color: #f1f1f1;
+        padding: 20px 10px;
+      }
+      
+      
+      
+      .header{
+        background-color:white;
+        color: black;
+      }
+      
+    
+      
+      .header-right {
+        float: right;
+      }
+
+
+@media only screen and (max-width: 845px) {
+    .first_part{
+        flex-direction: column-reverse;
+        
+       
+     
+      
+    }
+    .p1{
+        font-size: 30px;
+        line-height: 30px;
+
+    }
+    .img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .p2{
+        width: 100%;
+         
+         
+         }
+         .b1{
+           
+            font-size: 20px;
+            line-height: 25px;
+            
+            color: #FFFFFF;
+            
+        background:gray;
+        border-radius: 1.5px;
+        }
+    .second_part{
+        flex-direction: column;
+        width: 80%;
+    }
+    .f1{  text-align: center;
+    }
+    p.text_right{
+display: none;    }
+    .white_background{padding-top: 2px;}
+    .flex_row{
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .pic_end{
+        width: 15px;
+       height: 20px;
+       }
+    
+  }
